@@ -1,0 +1,1757 @@
+[
+  {
+    "game": [
+      {
+        "id": "4b4f8e5d-4174-47ce-a67c-447f3d1eab9e",
+        "name": "Chess",
+        "rules": "Capture the opponent's king",
+        "player_limit": 10706,
+        "status": "Active",
+        "created_at": "2023-09-13T05:46:58.992Z",
+        "updated_at": "2023-09-13T09:35:53.133Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22d5d001-371a-4145-9451-c7218fb31fd1",
+        "name": "Monopoly",
+        "rules": "Buy and sell properties",
+        "player_limit": 40135,
+        "status": "Paused",
+        "created_at": "2023-09-13T08:28:37.418Z",
+        "updated_at": "2023-09-13T07:51:24.991Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c9690619-d960-4613-9a35-6e8f8bbee6f8",
+        "name": "Scrabble",
+        "rules": "Form words with letter tiles",
+        "player_limit": 26013,
+        "status": "Finished",
+        "created_at": "2023-09-12T19:44:52.055Z",
+        "updated_at": "2023-09-13T06:23:06.603Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "20526698-1634-4d31-86e8-0c3ffdf00d0b",
+        "name": "Poker",
+        "rules": "Play with a deck of cards",
+        "player_limit": 33263,
+        "status": "Ongoing",
+        "created_at": "2023-09-12T14:23:44.877Z",
+        "updated_at": "2023-09-13T06:42:37.220Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "89f24195-59ac-4274-b31e-6fceb3d4d2d7",
+        "name": "Jenga",
+        "rules": "Stack wooden blocks without toppling",
+        "player_limit": 34036,
+        "status": "Cancelled",
+        "created_at": "2023-09-12T18:52:04.027Z",
+        "updated_at": "2023-09-13T04:31:42.733Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "5a7bbd68-9359-4d40-a972-c1f439808e98",
+        "username": "player1",
+        "score": 37424,
+        "status": "Online",
+        "created_at": "2023-09-12T15:31:09.908Z",
+        "updated_at": "2023-09-13T07:43:14.524Z",
+        "game_id": "4b4f8e5d-4174-47ce-a67c-447f3d1eab9e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54255ef2-756c-41ee-8fa0-d118d9074f12",
+        "username": "gamer123",
+        "score": 66475,
+        "status": "Offline",
+        "created_at": "2023-09-13T13:11:17.714Z",
+        "updated_at": "2023-09-13T06:29:16.971Z",
+        "game_id": "22d5d001-371a-4145-9451-c7218fb31fd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95f5b089-b76d-4650-8036-32c8eeba15e5",
+        "username": "proplayer",
+        "score": 56883,
+        "status": "Away",
+        "created_at": "2023-09-13T09:27:31.709Z",
+        "updated_at": "2023-09-12T20:53:06.286Z",
+        "game_id": "c9690619-d960-4613-9a35-6e8f8bbee6f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d608ee8f-3ae7-4cca-b049-124d88411126",
+        "username": "gamefanatic",
+        "score": 81378,
+        "status": "Busy",
+        "created_at": "2023-09-13T01:18:45.178Z",
+        "updated_at": "2023-09-13T10:52:16.250Z",
+        "game_id": "22d5d001-371a-4145-9451-c7218fb31fd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "522d40e7-fabc-41cf-baee-f23e308ba163",
+        "username": "playerX",
+        "score": 19322,
+        "status": "Available",
+        "created_at": "2023-09-13T09:20:05.721Z",
+        "updated_at": "2023-09-13T04:15:47.184Z",
+        "game_id": "22d5d001-371a-4145-9451-c7218fb31fd1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "4f0f0121-4225-4ec1-afb3-be9767fba200",
+        "created_at": "2023-09-13T10:44:09.126Z",
+        "updated_at": "2023-09-13T06:20:49.140Z",
+        "game_id": "22d5d001-371a-4145-9451-c7218fb31fd1",
+        "player_id": "54255ef2-756c-41ee-8fa0-d118d9074f12"
+      },
+      {
+        "id": "25b71a71-f2e7-4c21-af39-b6f7bee8fbe6",
+        "created_at": "2023-09-12T23:57:25.916Z",
+        "updated_at": "2023-09-13T05:40:04.689Z",
+        "game_id": "c9690619-d960-4613-9a35-6e8f8bbee6f8",
+        "player_id": "54255ef2-756c-41ee-8fa0-d118d9074f12"
+      },
+      {
+        "id": "0e897530-ca40-4f93-b700-fcc6f22926f7",
+        "created_at": "2023-09-13T10:06:52.645Z",
+        "updated_at": "2023-09-12T18:32:59.566Z",
+        "game_id": "22d5d001-371a-4145-9451-c7218fb31fd1",
+        "player_id": "522d40e7-fabc-41cf-baee-f23e308ba163"
+      },
+      {
+        "id": "f7a52420-91dc-4fc0-a971-04765e969bb2",
+        "created_at": "2023-09-12T22:01:12.979Z",
+        "updated_at": "2023-09-13T02:04:37.317Z",
+        "game_id": "22d5d001-371a-4145-9451-c7218fb31fd1",
+        "player_id": "95f5b089-b76d-4650-8036-32c8eeba15e5"
+      },
+      {
+        "id": "d310678d-db08-4d2c-9f24-dc39cabd18db",
+        "created_at": "2023-09-13T06:22:00.087Z",
+        "updated_at": "2023-09-12T23:40:02.802Z",
+        "game_id": "4b4f8e5d-4174-47ce-a67c-447f3d1eab9e",
+        "player_id": "d608ee8f-3ae7-4cca-b049-124d88411126"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "00ad5897-43ac-48e2-9c3c-e7c651098fc8",
+        "email": "Raegan.Sporer@gmail.com",
+        "firstName": "Stone",
+        "lastName": "Satterfield-Cruickshank",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/600.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e21de0f2-87a1-427a-b559-ba077209a171",
+        "email": "Lauriane_Sauer@yahoo.com",
+        "firstName": "Grayce",
+        "lastName": "Littel-Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/885.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3197d0da-7f81-4b14-867a-dea7b8cf3241",
+        "email": "Buford_VonRueden37@gmail.com",
+        "firstName": "Elsie",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25376303",
+        "tenantId": null
+      },
+      {
+        "reference": "7d5bf345-52dc-49c1-aacc-1682692088db",
+        "email": "Thomas.Russel18@yahoo.com",
+        "firstName": "Annette",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/363.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "70179954-ccc8-4867-bc5c-f22cf223c575",
+        "email": "Rosie78@hotmail.com",
+        "firstName": "Jaiden",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/104.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game": [
+      {
+        "id": "37176b1b-b73a-4f3a-bb7f-74aa392a2670",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "player_limit": 73301,
+        "status": "Active",
+        "created_at": "2023-09-12T17:37:41.217Z",
+        "updated_at": "2023-09-13T12:02:48.527Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c9e9a221-fb80-4807-ab8c-bc0a91f8852e",
+        "name": "Monopoly",
+        "rules": "Buy properties and bankrupt opponents",
+        "player_limit": 61360,
+        "status": "Inactive",
+        "created_at": "2023-09-12T16:55:09.790Z",
+        "updated_at": "2023-09-13T02:56:24.655Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "06363500-780a-444d-a592-7c2763616410",
+        "name": "Scrabble",
+        "rules": "Form words with letter tiles",
+        "player_limit": 14309,
+        "status": "Pending",
+        "created_at": "2023-09-13T03:39:16.286Z",
+        "updated_at": "2023-09-13T07:48:14.633Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "120354cc-b6e7-4381-9a0c-970ad62aea72",
+        "name": "Poker",
+        "rules": "Play cards and win chips",
+        "player_limit": 98025,
+        "status": "Completed",
+        "created_at": "2023-09-13T00:25:45.918Z",
+        "updated_at": "2023-09-13T10:35:23.516Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ee0a1079-bab2-42db-aff7-b2d5a09b53a7",
+        "name": "Sudoku",
+        "rules": "Fill a 9x9 grid with numbers",
+        "player_limit": 1159,
+        "status": "Paused",
+        "created_at": "2023-09-12T22:43:57.162Z",
+        "updated_at": "2023-09-12T17:19:08.057Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "9cd532f2-99a3-4d49-9d2e-4e63983bc4f8",
+        "username": "player1",
+        "score": 94082,
+        "status": "Online",
+        "created_at": "2023-09-13T03:52:13.762Z",
+        "updated_at": "2023-09-12T14:35:35.817Z",
+        "game_id": "ee0a1079-bab2-42db-aff7-b2d5a09b53a7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7aa04b74-92b1-4e89-a216-8aadcdffb2a1",
+        "username": "player2",
+        "score": 83659,
+        "status": "Offline",
+        "created_at": "2023-09-13T04:49:49.341Z",
+        "updated_at": "2023-09-13T10:53:33.138Z",
+        "game_id": "120354cc-b6e7-4381-9a0c-970ad62aea72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98a142e0-3068-4a98-8ee9-c2e23279eaf4",
+        "username": "player3",
+        "score": 42151,
+        "status": "Busy",
+        "created_at": "2023-09-12T22:31:24.732Z",
+        "updated_at": "2023-09-12T16:47:27.279Z",
+        "game_id": "37176b1b-b73a-4f3a-bb7f-74aa392a2670",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "127eaa25-f434-48ae-8e21-337a0d62df13",
+        "username": "player4",
+        "score": 92601,
+        "status": "Away",
+        "created_at": "2023-09-13T07:33:02.450Z",
+        "updated_at": "2023-09-13T09:57:36.864Z",
+        "game_id": "06363500-780a-444d-a592-7c2763616410",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56840a42-606d-404e-9484-2d2f4b18b11d",
+        "username": "player5",
+        "score": 38414,
+        "status": "Playing",
+        "created_at": "2023-09-13T09:31:05.032Z",
+        "updated_at": "2023-09-12T15:21:30.010Z",
+        "game_id": "06363500-780a-444d-a592-7c2763616410",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "da10439f-6c43-4e39-a341-f7ed2ff90eec",
+        "created_at": "2023-09-12T22:08:28.023Z",
+        "updated_at": "2023-09-13T01:21:14.229Z",
+        "game_id": "120354cc-b6e7-4381-9a0c-970ad62aea72",
+        "player_id": "56840a42-606d-404e-9484-2d2f4b18b11d"
+      },
+      {
+        "id": "a1837258-1594-4c97-84e8-e9be3277e9a8",
+        "created_at": "2023-09-13T04:05:01.642Z",
+        "updated_at": "2023-09-12T23:08:51.810Z",
+        "game_id": "ee0a1079-bab2-42db-aff7-b2d5a09b53a7",
+        "player_id": "9cd532f2-99a3-4d49-9d2e-4e63983bc4f8"
+      },
+      {
+        "id": "14a4104c-bcc5-44a5-b4e0-fbbc33b5c127",
+        "created_at": "2023-09-13T01:59:14.629Z",
+        "updated_at": "2023-09-13T12:35:44.141Z",
+        "game_id": "37176b1b-b73a-4f3a-bb7f-74aa392a2670",
+        "player_id": "56840a42-606d-404e-9484-2d2f4b18b11d"
+      },
+      {
+        "id": "807eefcf-af01-4383-a839-f002c7ec0184",
+        "created_at": "2023-09-13T12:44:30.099Z",
+        "updated_at": "2023-09-13T12:16:27.057Z",
+        "game_id": "ee0a1079-bab2-42db-aff7-b2d5a09b53a7",
+        "player_id": "7aa04b74-92b1-4e89-a216-8aadcdffb2a1"
+      },
+      {
+        "id": "425ff328-4304-4f69-9ece-c0ef3c7490b6",
+        "created_at": "2023-09-13T01:39:29.107Z",
+        "updated_at": "2023-09-12T16:21:43.548Z",
+        "game_id": "c9e9a221-fb80-4807-ab8c-bc0a91f8852e",
+        "player_id": "9cd532f2-99a3-4d49-9d2e-4e63983bc4f8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eac23234-927a-4950-88b8-d37a07e7b063",
+        "email": "Deshawn_Quigley82@hotmail.com",
+        "firstName": "Luther",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/814.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f6f0afd6-63b1-4386-8ae9-e09efdd39ef0",
+        "email": "Quincy_Franey-Kemmer@hotmail.com",
+        "firstName": "Brock",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1048.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "07b555ae-32ef-41b4-b038-45b3bd7d9822",
+        "email": "Ethel.Herman@hotmail.com",
+        "firstName": "Royal",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73110948",
+        "tenantId": null
+      },
+      {
+        "reference": "d8c3fda5-48f7-4c31-bef1-e796a8eac8ba",
+        "email": "Keyshawn.Fay@gmail.com",
+        "firstName": "Eileen",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12556046",
+        "tenantId": null
+      },
+      {
+        "reference": "60c50c2b-c602-4594-b9db-4586e6e30d7e",
+        "email": "Adrain_Grimes38@gmail.com",
+        "firstName": "Abelardo",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1162.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game": [
+      {
+        "id": "54bfb7db-6238-4de5-9a26-9085eee37d18",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "player_limit": 1305,
+        "status": "Active",
+        "created_at": "2023-09-13T13:43:06.760Z",
+        "updated_at": "2023-09-13T10:59:09.227Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0619deb8-a199-4de6-9e48-e6e0335d0d73",
+        "name": "Monopoly",
+        "rules": "Buy properties and collect rent",
+        "player_limit": 85922,
+        "status": "Paused",
+        "created_at": "2023-09-13T00:31:36.852Z",
+        "updated_at": "2023-09-12T14:47:51.763Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e4a1f0d9-b744-4a18-9775-bc10c3e14436",
+        "name": "Scrabble",
+        "rules": "Form words with letter tiles",
+        "player_limit": 97575,
+        "status": "Completed",
+        "created_at": "2023-09-12T21:07:05.683Z",
+        "updated_at": "2023-09-12T20:22:48.172Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d51b26ff-fb6a-4395-a0be-e1700d960e7c",
+        "name": "Poker",
+        "rules": "Play cards to create winning combinations",
+        "player_limit": 80989,
+        "status": "Upcoming",
+        "created_at": "2023-09-12T20:13:36.554Z",
+        "updated_at": "2023-09-13T01:44:57.817Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7bbc58b7-38c3-4155-9017-3e4d6351aea7",
+        "name": "Catan",
+        "rules": "Build settlements and cities",
+        "player_limit": 83802,
+        "status": "Cancelled",
+        "created_at": "2023-09-12T14:56:18.358Z",
+        "updated_at": "2023-09-13T03:05:54.045Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "75e5aa09-6d01-4d27-b9b9-cc3e3513abea",
+        "username": "player1",
+        "score": 68189,
+        "status": "Online",
+        "created_at": "2023-09-13T12:59:24.423Z",
+        "updated_at": "2023-09-13T06:06:38.483Z",
+        "game_id": "0619deb8-a199-4de6-9e48-e6e0335d0d73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cad99dd6-7aab-427f-a5a8-1a3311bccd4a",
+        "username": "gamer123",
+        "score": 60092,
+        "status": "Offline",
+        "created_at": "2023-09-13T09:44:01.804Z",
+        "updated_at": "2023-09-12T20:09:46.135Z",
+        "game_id": "7bbc58b7-38c3-4155-9017-3e4d6351aea7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f72e2a6-d3a9-474e-ac2d-142cae709f22",
+        "username": "proplayer",
+        "score": 8564,
+        "status": "In Game",
+        "created_at": "2023-09-13T10:37:39.389Z",
+        "updated_at": "2023-09-13T02:01:38.893Z",
+        "game_id": "e4a1f0d9-b744-4a18-9775-bc10c3e14436",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "166df966-d620-4c51-b123-023cf9dac5ba",
+        "username": "gamefanatic",
+        "score": 70689,
+        "status": "Away",
+        "created_at": "2023-09-12T19:05:30.159Z",
+        "updated_at": "2023-09-13T07:07:50.986Z",
+        "game_id": "d51b26ff-fb6a-4395-a0be-e1700d960e7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2475d3d8-2fa7-4ca2-b5e4-57e0f7e384fd",
+        "username": "mastergamer",
+        "score": 11944,
+        "status": "Busy",
+        "created_at": "2023-09-12T14:18:37.183Z",
+        "updated_at": "2023-09-13T12:16:27.932Z",
+        "game_id": "e4a1f0d9-b744-4a18-9775-bc10c3e14436",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "80ab6022-cc4b-4e8f-b87e-22c9d7165878",
+        "created_at": "2023-09-12T16:30:32.522Z",
+        "updated_at": "2023-09-12T22:26:08.740Z",
+        "game_id": "54bfb7db-6238-4de5-9a26-9085eee37d18",
+        "player_id": "8f72e2a6-d3a9-474e-ac2d-142cae709f22"
+      },
+      {
+        "id": "60531098-4072-45fa-a378-5253949c7d42",
+        "created_at": "2023-09-13T01:08:39.497Z",
+        "updated_at": "2023-09-13T01:40:12.029Z",
+        "game_id": "0619deb8-a199-4de6-9e48-e6e0335d0d73",
+        "player_id": "2475d3d8-2fa7-4ca2-b5e4-57e0f7e384fd"
+      },
+      {
+        "id": "f0069200-db4a-4633-ba74-1204a893afaa",
+        "created_at": "2023-09-13T11:34:33.066Z",
+        "updated_at": "2023-09-13T11:51:09.224Z",
+        "game_id": "e4a1f0d9-b744-4a18-9775-bc10c3e14436",
+        "player_id": "8f72e2a6-d3a9-474e-ac2d-142cae709f22"
+      },
+      {
+        "id": "daf0b612-6b63-4e58-a5c7-8429557fa8d7",
+        "created_at": "2023-09-13T12:58:58.411Z",
+        "updated_at": "2023-09-12T14:18:45.815Z",
+        "game_id": "7bbc58b7-38c3-4155-9017-3e4d6351aea7",
+        "player_id": "166df966-d620-4c51-b123-023cf9dac5ba"
+      },
+      {
+        "id": "1b352244-caa9-4e64-bcd0-f2b5b34432bd",
+        "created_at": "2023-09-13T09:09:40.959Z",
+        "updated_at": "2023-09-13T06:37:29.153Z",
+        "game_id": "7bbc58b7-38c3-4155-9017-3e4d6351aea7",
+        "player_id": "166df966-d620-4c51-b123-023cf9dac5ba"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "543d6fe0-b69d-4bd7-a940-15fc5a837c4c",
+        "email": "Lindsay_Steuber71@yahoo.com",
+        "firstName": "Tiara",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62598323",
+        "tenantId": null
+      },
+      {
+        "reference": "22a26bf3-0c65-49a5-8691-c9e16eee7e0a",
+        "email": "Dagmar.Walsh2@yahoo.com",
+        "firstName": "Demario",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37881846",
+        "tenantId": null
+      },
+      {
+        "reference": "aefc2d80-39c3-4ab7-ae79-2a9f281ee2a0",
+        "email": "Kamryn_Purdy@hotmail.com",
+        "firstName": "Lucile",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/754.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc35fc21-694b-490f-bd3c-cd838a8abdb6",
+        "email": "Golda_Thiel24@yahoo.com",
+        "firstName": "Keagan",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/967.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c62aa47-0c07-4610-b2d8-b89820217d19",
+        "email": "Lauretta.Thompson@yahoo.com",
+        "firstName": "Stanley",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/759.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game": [
+      {
+        "id": "60c19a75-7704-4fc0-9d17-18a0ebc9fb7c",
+        "name": "Chess",
+        "rules": "Capture the opponent's king",
+        "player_limit": 61791,
+        "status": "In progress",
+        "created_at": "2023-09-12T17:59:01.684Z",
+        "updated_at": "2023-09-12T17:13:37.962Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "89753efb-0559-435c-8c6d-0389610cf8e9",
+        "name": "Monopoly",
+        "rules": "Buy and sell properties",
+        "player_limit": 27148,
+        "status": "Completed",
+        "created_at": "2023-09-12T21:42:05.790Z",
+        "updated_at": "2023-09-13T07:30:45.300Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1e0bd870-4ecb-4007-94e4-2fafa8207061",
+        "name": "Scrabble",
+        "rules": "Form words with letter tiles",
+        "player_limit": 34621,
+        "status": "On hold",
+        "created_at": "2023-09-13T13:10:57.808Z",
+        "updated_at": "2023-09-12T22:57:16.614Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "409b17b6-62d5-4709-9052-9ca834b32883",
+        "name": "Poker",
+        "rules": "Play with a deck of cards",
+        "player_limit": 10354,
+        "status": "Upcoming",
+        "created_at": "2023-09-12T22:37:29.221Z",
+        "updated_at": "2023-09-13T01:59:20.601Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f447df9-9281-4c28-9dbb-3a3b866dde59",
+        "name": "Sudoku",
+        "rules": "Fill a 9x9 grid with numbers",
+        "player_limit": 82483,
+        "status": "Cancelled",
+        "created_at": "2023-09-12T21:36:54.001Z",
+        "updated_at": "2023-09-13T02:13:06.158Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "25877dd3-08f1-4a3b-a6ea-db77a60c11ce",
+        "username": "johndoe123",
+        "score": 97644,
+        "status": "Active",
+        "created_at": "2023-09-13T02:52:01.356Z",
+        "updated_at": "2023-09-13T08:16:42.335Z",
+        "game_id": "60c19a75-7704-4fc0-9d17-18a0ebc9fb7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95b3444d-5811-4726-9f4c-5389409444b2",
+        "username": "janesmith456",
+        "score": 31514,
+        "status": "Inactive",
+        "created_at": "2023-09-13T11:44:05.579Z",
+        "updated_at": "2023-09-13T10:28:07.986Z",
+        "game_id": "60c19a75-7704-4fc0-9d17-18a0ebc9fb7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6649983-0bbf-44ef-b54f-f68c64cad829",
+        "username": "michaelbrown789",
+        "score": 47202,
+        "status": "Online",
+        "created_at": "2023-09-13T09:47:04.974Z",
+        "updated_at": "2023-09-12T14:09:50.099Z",
+        "game_id": "89753efb-0559-435c-8c6d-0389610cf8e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08b1fd7f-ce56-4cda-bdbe-a593fcca2826",
+        "username": "sarahjones321",
+        "score": 91986,
+        "status": "Offline",
+        "created_at": "2023-09-13T08:04:16.685Z",
+        "updated_at": "2023-09-12T17:35:44.226Z",
+        "game_id": "409b17b6-62d5-4709-9052-9ca834b32883",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bb47912-6727-4ac7-b2ad-b19db51d9e55",
+        "username": "robertwilson987",
+        "score": 26382,
+        "status": "Away",
+        "created_at": "2023-09-12T15:49:42.914Z",
+        "updated_at": "2023-09-12T21:29:00.128Z",
+        "game_id": "89753efb-0559-435c-8c6d-0389610cf8e9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "8f2026ec-9b37-4ca9-8ccb-f911f21314c1",
+        "created_at": "2023-09-12T14:57:55.154Z",
+        "updated_at": "2023-09-13T03:41:08.975Z",
+        "game_id": "60c19a75-7704-4fc0-9d17-18a0ebc9fb7c",
+        "player_id": "a6649983-0bbf-44ef-b54f-f68c64cad829"
+      },
+      {
+        "id": "ff0cf234-976a-4c5a-823e-1c47c29c1c28",
+        "created_at": "2023-09-13T09:26:25.639Z",
+        "updated_at": "2023-09-12T18:29:58.564Z",
+        "game_id": "409b17b6-62d5-4709-9052-9ca834b32883",
+        "player_id": "95b3444d-5811-4726-9f4c-5389409444b2"
+      },
+      {
+        "id": "bb961506-3642-45a5-bf9e-b53761ec1490",
+        "created_at": "2023-09-12T17:10:03.993Z",
+        "updated_at": "2023-09-13T05:24:30.240Z",
+        "game_id": "1e0bd870-4ecb-4007-94e4-2fafa8207061",
+        "player_id": "25877dd3-08f1-4a3b-a6ea-db77a60c11ce"
+      },
+      {
+        "id": "e199cf2e-4991-4749-b1a6-ea73549b5845",
+        "created_at": "2023-09-12T18:18:57.188Z",
+        "updated_at": "2023-09-13T12:51:57.126Z",
+        "game_id": "1e0bd870-4ecb-4007-94e4-2fafa8207061",
+        "player_id": "1bb47912-6727-4ac7-b2ad-b19db51d9e55"
+      },
+      {
+        "id": "d14a81c3-f1da-48b3-aba4-d9400a4d1667",
+        "created_at": "2023-09-12T14:37:37.139Z",
+        "updated_at": "2023-09-13T02:54:54.046Z",
+        "game_id": "9f447df9-9281-4c28-9dbb-3a3b866dde59",
+        "player_id": "08b1fd7f-ce56-4cda-bdbe-a593fcca2826"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f43ddd87-e6da-408e-9446-3f69f9dc8a0d",
+        "email": "Shayne81@yahoo.com",
+        "firstName": "Luna",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ace246e8-2194-4d8d-b746-5b956952c695",
+        "email": "Kellen.Bergnaum@hotmail.com",
+        "firstName": "Kale",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22491217",
+        "tenantId": null
+      },
+      {
+        "reference": "82b9aa1d-6f0f-420d-9e49-72c117290ae1",
+        "email": "Lina.Goldner51@yahoo.com",
+        "firstName": "Roel",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23738634",
+        "tenantId": null
+      },
+      {
+        "reference": "99a660b6-144d-41e1-abe4-fa7494912d29",
+        "email": "Bethel.Lesch4@gmail.com",
+        "firstName": "Missouri",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85025404",
+        "tenantId": null
+      },
+      {
+        "reference": "f92641e6-927b-432c-a553-6ffbab5d67f6",
+        "email": "Maximilian_Senger@gmail.com",
+        "firstName": "Darren",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47289389",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game": [
+      {
+        "id": "788b9424-0ead-4e4c-aef2-d426e8fd2a3b",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "player_limit": 88993,
+        "status": "In progress",
+        "created_at": "2023-09-13T02:06:37.926Z",
+        "updated_at": "2023-09-13T01:05:00.707Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5377bbc1-ab39-4d46-b3b8-7364a09e515e",
+        "name": "Monopoly",
+        "rules": "Buy properties and collect rent",
+        "player_limit": 11383,
+        "status": "Completed",
+        "created_at": "2023-09-13T13:43:53.322Z",
+        "updated_at": "2023-09-13T12:33:18.287Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cf48a395-9d89-441b-ab13-9b9ec4b9c79f",
+        "name": "Scrabble",
+        "rules": "Form words using letter tiles",
+        "player_limit": 11806,
+        "status": "On hold",
+        "created_at": "2023-09-12T20:30:31.570Z",
+        "updated_at": "2023-09-13T06:22:49.053Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "46ab1733-f68c-47ce-92b4-cf9c107fd0c0",
+        "name": "Poker",
+        "rules": "Play cards to create winning combinations",
+        "player_limit": 59139,
+        "status": "Cancelled",
+        "created_at": "2023-09-13T06:03:56.849Z",
+        "updated_at": "2023-09-13T00:02:31.322Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49d2a028-0a94-4019-986a-710ae7c5e11a",
+        "name": "Sudoku",
+        "rules": "Fill a grid with numbers from 1 to 9",
+        "player_limit": 41066,
+        "status": "Upcoming",
+        "created_at": "2023-09-13T10:47:36.748Z",
+        "updated_at": "2023-09-12T17:24:59.302Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "44c6d9df-f97e-41f9-a82c-381af6901d88",
+        "username": "player1",
+        "score": 12094,
+        "status": "Active",
+        "created_at": "2023-09-12T20:18:25.709Z",
+        "updated_at": "2023-09-12T20:10:50.322Z",
+        "game_id": "49d2a028-0a94-4019-986a-710ae7c5e11a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f406126-4dc6-4603-b404-1ca0aae1c085",
+        "username": "gamer123",
+        "score": 1006,
+        "status": "Inactive",
+        "created_at": "2023-09-12T20:12:01.665Z",
+        "updated_at": "2023-09-13T13:47:09.839Z",
+        "game_id": "788b9424-0ead-4e4c-aef2-d426e8fd2a3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf59dd10-b4a2-42f9-a735-3e7debb4ac41",
+        "username": "proplayer",
+        "score": 17137,
+        "status": "Online",
+        "created_at": "2023-09-12T23:23:47.916Z",
+        "updated_at": "2023-09-13T09:43:57.907Z",
+        "game_id": "46ab1733-f68c-47ce-92b4-cf9c107fd0c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f84c9371-7630-41dd-a830-70a834a9f2b7",
+        "username": "gamefanatic",
+        "score": 49659,
+        "status": "Offline",
+        "created_at": "2023-09-12T14:23:49.824Z",
+        "updated_at": "2023-09-13T08:44:35.142Z",
+        "game_id": "5377bbc1-ab39-4d46-b3b8-7364a09e515e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bf18e8b-eb9a-46b9-82a3-856c8f671b5d",
+        "username": "playerX",
+        "score": 60737,
+        "status": "Busy",
+        "created_at": "2023-09-13T06:37:42.273Z",
+        "updated_at": "2023-09-12T23:07:03.611Z",
+        "game_id": "788b9424-0ead-4e4c-aef2-d426e8fd2a3b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "4362bbd8-f325-414e-98b4-aa96813ab673",
+        "created_at": "2023-09-13T04:17:47.120Z",
+        "updated_at": "2023-09-13T11:34:06.249Z",
+        "game_id": "46ab1733-f68c-47ce-92b4-cf9c107fd0c0",
+        "player_id": "9bf18e8b-eb9a-46b9-82a3-856c8f671b5d"
+      },
+      {
+        "id": "22a6d034-5fd3-49fc-8e3a-41d913cea02b",
+        "created_at": "2023-09-13T13:23:32.357Z",
+        "updated_at": "2023-09-12T21:54:13.283Z",
+        "game_id": "46ab1733-f68c-47ce-92b4-cf9c107fd0c0",
+        "player_id": "9bf18e8b-eb9a-46b9-82a3-856c8f671b5d"
+      },
+      {
+        "id": "6b8d2d03-4a00-46c9-93e3-f5f860fb1846",
+        "created_at": "2023-09-13T02:19:01.773Z",
+        "updated_at": "2023-09-12T17:23:13.507Z",
+        "game_id": "788b9424-0ead-4e4c-aef2-d426e8fd2a3b",
+        "player_id": "9f406126-4dc6-4603-b404-1ca0aae1c085"
+      },
+      {
+        "id": "0f2ff264-ad29-45e4-99bf-12cac651da4e",
+        "created_at": "2023-09-12T17:18:01.209Z",
+        "updated_at": "2023-09-13T06:11:39.869Z",
+        "game_id": "cf48a395-9d89-441b-ab13-9b9ec4b9c79f",
+        "player_id": "bf59dd10-b4a2-42f9-a735-3e7debb4ac41"
+      },
+      {
+        "id": "63aafe7b-d03f-4b51-834c-4d7daa3da790",
+        "created_at": "2023-09-13T07:34:04.516Z",
+        "updated_at": "2023-09-13T02:47:48.120Z",
+        "game_id": "cf48a395-9d89-441b-ab13-9b9ec4b9c79f",
+        "player_id": "44c6d9df-f97e-41f9-a82c-381af6901d88"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d00cedb8-2efb-449f-93c8-3a60cbbb20cc",
+        "email": "Natalie90@yahoo.com",
+        "firstName": "Kelton",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1011.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c059e937-ab3a-43b2-85b6-a151a69e0e13",
+        "email": "Ulises.Stroman56@hotmail.com",
+        "firstName": "Vincenza",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1102.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b15d398-d7f2-4955-897f-3d2820951b3a",
+        "email": "Deja_Lockman@hotmail.com",
+        "firstName": "Mazie",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58294068",
+        "tenantId": null
+      },
+      {
+        "reference": "49fc7fba-4d93-4fcb-a87a-2bf435433308",
+        "email": "Cleve.Wuckert13@yahoo.com",
+        "firstName": "Eddie",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/848.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1cc45765-609b-45d0-a80f-df7feb0f5ac6",
+        "email": "Chyna24@gmail.com",
+        "firstName": "Cristina",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/255.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game": [
+      {
+        "id": "b8abf5c0-4682-4e96-af2d-60b5e690f2d5",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "player_limit": 66269,
+        "status": "Active",
+        "created_at": "2023-09-12T22:42:10.006Z",
+        "updated_at": "2023-09-13T07:11:33.760Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "78e8a220-174b-4e87-b842-23742bc7215b",
+        "name": "Monopoly",
+        "rules": "Buy properties and bankrupt opponents",
+        "player_limit": 32811,
+        "status": "Paused",
+        "created_at": "2023-09-12T20:34:55.233Z",
+        "updated_at": "2023-09-12T15:04:02.418Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0374049c-5e31-4f35-bcde-def28aea902a",
+        "name": "Scrabble",
+        "rules": "Form words using letter tiles",
+        "player_limit": 67063,
+        "status": "Completed",
+        "created_at": "2023-09-12T17:07:41.850Z",
+        "updated_at": "2023-09-12T18:54:26.832Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "52a86ee0-bcd3-4442-ae66-e3d7e92f22ec",
+        "name": "Poker",
+        "rules": "Play cards to create winning combinations",
+        "player_limit": 76673,
+        "status": "Upcoming",
+        "created_at": "2023-09-13T03:07:47.548Z",
+        "updated_at": "2023-09-12T21:02:01.657Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d986c6d0-e4fc-46dd-bc08-8f9b1922b448",
+        "name": "Sudoku",
+        "rules": "Fill a 9x9 grid with numbers from 1 to 9",
+        "player_limit": 84510,
+        "status": "Ongoing",
+        "created_at": "2023-09-13T11:06:09.476Z",
+        "updated_at": "2023-09-13T08:41:20.060Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "e513c6de-e343-4762-9036-66d58f1c35f1",
+        "username": "johndoe123",
+        "score": 94826,
+        "status": "Online",
+        "created_at": "2023-09-13T04:13:50.202Z",
+        "updated_at": "2023-09-13T10:55:25.204Z",
+        "game_id": "b8abf5c0-4682-4e96-af2d-60b5e690f2d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b71a3aad-1ee5-480a-9dff-b19ae7d45ef5",
+        "username": "janesmith456",
+        "score": 64296,
+        "status": "Offline",
+        "created_at": "2023-09-13T00:12:04.261Z",
+        "updated_at": "2023-09-13T06:50:31.454Z",
+        "game_id": "52a86ee0-bcd3-4442-ae66-e3d7e92f22ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d72ae07-3a78-4c72-bc39-bda406485bc2",
+        "username": "michaelb",
+        "score": 80814,
+        "status": "Away",
+        "created_at": "2023-09-12T19:42:12.162Z",
+        "updated_at": "2023-09-12T17:21:15.714Z",
+        "game_id": "b8abf5c0-4682-4e96-af2d-60b5e690f2d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e04c3480-3c1b-4585-8351-35381230881c",
+        "username": "sarahj",
+        "score": 84590,
+        "status": "Busy",
+        "created_at": "2023-09-13T07:25:51.601Z",
+        "updated_at": "2023-09-12T14:54:24.062Z",
+        "game_id": "d986c6d0-e4fc-46dd-bc08-8f9b1922b448",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "822e1ab6-5f64-43eb-99b1-d4c325d47d4e",
+        "username": "davidw",
+        "score": 17222,
+        "status": "Available",
+        "created_at": "2023-09-12T20:53:41.034Z",
+        "updated_at": "2023-09-13T11:32:30.828Z",
+        "game_id": "b8abf5c0-4682-4e96-af2d-60b5e690f2d5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "cf4b3734-e69f-4809-ba3a-13774ce2f0c3",
+        "created_at": "2023-09-12T19:36:07.994Z",
+        "updated_at": "2023-09-13T00:47:35.959Z",
+        "game_id": "b8abf5c0-4682-4e96-af2d-60b5e690f2d5",
+        "player_id": "e04c3480-3c1b-4585-8351-35381230881c"
+      },
+      {
+        "id": "8a72eb12-5c39-450b-aebc-8a79d751c3bd",
+        "created_at": "2023-09-12T14:44:31.804Z",
+        "updated_at": "2023-09-12T19:18:55.555Z",
+        "game_id": "52a86ee0-bcd3-4442-ae66-e3d7e92f22ec",
+        "player_id": "e04c3480-3c1b-4585-8351-35381230881c"
+      },
+      {
+        "id": "1d31540d-e81d-4c29-9c7c-f30c3c38ea6a",
+        "created_at": "2023-09-12T16:09:42.834Z",
+        "updated_at": "2023-09-12T22:10:22.275Z",
+        "game_id": "78e8a220-174b-4e87-b842-23742bc7215b",
+        "player_id": "822e1ab6-5f64-43eb-99b1-d4c325d47d4e"
+      },
+      {
+        "id": "144ded79-dc63-41cc-9390-a9074a9c8cf1",
+        "created_at": "2023-09-13T07:55:30.220Z",
+        "updated_at": "2023-09-13T06:29:15.006Z",
+        "game_id": "78e8a220-174b-4e87-b842-23742bc7215b",
+        "player_id": "b71a3aad-1ee5-480a-9dff-b19ae7d45ef5"
+      },
+      {
+        "id": "34707b42-1837-4a4b-994d-891784b49006",
+        "created_at": "2023-09-13T03:33:09.890Z",
+        "updated_at": "2023-09-13T08:58:50.357Z",
+        "game_id": "b8abf5c0-4682-4e96-af2d-60b5e690f2d5",
+        "player_id": "6d72ae07-3a78-4c72-bc39-bda406485bc2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1730033d-bc80-4276-a742-7f6682d48953",
+        "email": "Ernestina.Ward74@yahoo.com",
+        "firstName": "Reina",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/341.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20a5acc4-2ca1-4367-9c15-0c1ebb29e665",
+        "email": "Sydni.Gusikowski67@gmail.com",
+        "firstName": "Burnice",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/347.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64635f40-538a-4365-ad14-2ef9e9a0dde1",
+        "email": "Roscoe.Lynch@gmail.com",
+        "firstName": "Jarrod",
+        "lastName": "Gibson-Von",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/12.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61512231-dceb-4562-a63d-eb3751d9227a",
+        "email": "Sophia.Waelchi78@gmail.com",
+        "firstName": "Moshe",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2063658",
+        "tenantId": null
+      },
+      {
+        "reference": "b29a16c1-5ac9-4794-8cc8-2f68a530911f",
+        "email": "Mariana11@gmail.com",
+        "firstName": "Kane",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5858595",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game": [
+      {
+        "id": "b5132df5-a422-4628-beb6-91a96c06e7b3",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "player_limit": 37781,
+        "status": "Active",
+        "created_at": "2023-09-13T13:13:47.779Z",
+        "updated_at": "2023-09-13T13:59:10.155Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f476cff5-5309-4411-a4f1-41032539ca0a",
+        "name": "Monopoly",
+        "rules": "Buy properties and collect rent",
+        "player_limit": 59539,
+        "status": "Paused",
+        "created_at": "2023-09-13T08:25:54.399Z",
+        "updated_at": "2023-09-12T15:23:43.365Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e97ad47-acb5-4c9c-aa29-a59bffe616da",
+        "name": "Scrabble",
+        "rules": "Form words with letter tiles",
+        "player_limit": 93978,
+        "status": "Completed",
+        "created_at": "2023-09-13T07:29:38.716Z",
+        "updated_at": "2023-09-13T08:55:39.287Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e5fdf3e6-5da5-4868-a215-5afa7279902c",
+        "name": "Jenga",
+        "rules": "Remove blocks without toppling the tower",
+        "player_limit": 47208,
+        "status": "Upcoming",
+        "created_at": "2023-09-13T10:09:10.385Z",
+        "updated_at": "2023-09-12T14:34:32.357Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "38160f9a-ab85-4544-aa77-f38199cc96a2",
+        "name": "Pictionary",
+        "rules": "Draw and guess words or phrases",
+        "player_limit": 74138,
+        "status": "In progress",
+        "created_at": "2023-09-12T23:28:06.902Z",
+        "updated_at": "2023-09-13T09:28:27.170Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "1f44c4a8-bed5-45ca-962c-6fbabe8ebca8",
+        "username": "player1",
+        "score": 34800,
+        "status": "Online",
+        "created_at": "2023-09-12T17:13:42.541Z",
+        "updated_at": "2023-09-13T12:51:27.844Z",
+        "game_id": "b5132df5-a422-4628-beb6-91a96c06e7b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bbff0f6-2417-4c63-81d2-7a97c70a34e7",
+        "username": "gamer123",
+        "score": 7830,
+        "status": "Offline",
+        "created_at": "2023-09-13T11:50:16.906Z",
+        "updated_at": "2023-09-12T22:43:32.227Z",
+        "game_id": "b5132df5-a422-4628-beb6-91a96c06e7b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b0a5f4a-d80d-47be-9ef1-df14bd64027c",
+        "username": "proplayer",
+        "score": 76196,
+        "status": "Away",
+        "created_at": "2023-09-12T22:59:54.780Z",
+        "updated_at": "2023-09-13T07:40:47.526Z",
+        "game_id": "e5fdf3e6-5da5-4868-a215-5afa7279902c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35185ced-79c7-4705-ad9f-e108de1eca4f",
+        "username": "gamefanatic",
+        "score": 38934,
+        "status": "Busy",
+        "created_at": "2023-09-12T20:12:22.370Z",
+        "updated_at": "2023-09-13T01:28:27.754Z",
+        "game_id": "b5132df5-a422-4628-beb6-91a96c06e7b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5525c8b-b3e6-4183-99f2-9d35fcd285ed",
+        "username": "gamingexpert",
+        "score": 63039,
+        "status": "Available",
+        "created_at": "2023-09-13T09:10:52.487Z",
+        "updated_at": "2023-09-13T01:34:00.204Z",
+        "game_id": "38160f9a-ab85-4544-aa77-f38199cc96a2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "6fb54112-364b-4f51-8bb8-51f50179d91e",
+        "created_at": "2023-09-13T12:02:33.625Z",
+        "updated_at": "2023-09-13T03:52:49.002Z",
+        "game_id": "9e97ad47-acb5-4c9c-aa29-a59bffe616da",
+        "player_id": "9b0a5f4a-d80d-47be-9ef1-df14bd64027c"
+      },
+      {
+        "id": "d2f107d4-3a9e-400d-a808-71e8e267a842",
+        "created_at": "2023-09-13T08:59:17.826Z",
+        "updated_at": "2023-09-13T00:42:29.771Z",
+        "game_id": "9e97ad47-acb5-4c9c-aa29-a59bffe616da",
+        "player_id": "c5525c8b-b3e6-4183-99f2-9d35fcd285ed"
+      },
+      {
+        "id": "06f35563-58bb-4d6d-90ce-e1c006b447ee",
+        "created_at": "2023-09-13T04:13:06.207Z",
+        "updated_at": "2023-09-13T12:59:39.542Z",
+        "game_id": "e5fdf3e6-5da5-4868-a215-5afa7279902c",
+        "player_id": "c5525c8b-b3e6-4183-99f2-9d35fcd285ed"
+      },
+      {
+        "id": "f763b423-525e-45ba-afcb-19627d09dc05",
+        "created_at": "2023-09-13T04:33:41.175Z",
+        "updated_at": "2023-09-13T02:48:11.366Z",
+        "game_id": "b5132df5-a422-4628-beb6-91a96c06e7b3",
+        "player_id": "9b0a5f4a-d80d-47be-9ef1-df14bd64027c"
+      },
+      {
+        "id": "8fed37e0-467e-4c18-940d-916c5d87e45a",
+        "created_at": "2023-09-12T21:56:55.297Z",
+        "updated_at": "2023-09-13T03:10:07.072Z",
+        "game_id": "f476cff5-5309-4411-a4f1-41032539ca0a",
+        "player_id": "c5525c8b-b3e6-4183-99f2-9d35fcd285ed"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e0aca653-3650-42ce-89ec-87babfab0dd2",
+        "email": "Gloria60@gmail.com",
+        "firstName": "Keenan",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67536009",
+        "tenantId": null
+      },
+      {
+        "reference": "9322770c-c4d5-48c6-9476-4bb63fe59e3b",
+        "email": "Abbey.Feest@gmail.com",
+        "firstName": "Payton",
+        "lastName": "Nienow-Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ebdf58ac-dcad-4ced-97e5-308201d1926d",
+        "email": "Lera5@gmail.com",
+        "firstName": "Emmitt",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/187.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1fe66cb-9a7d-42d6-8843-669d38ff7416",
+        "email": "Mariela76@yahoo.com",
+        "firstName": "Crawford",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/325.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1b800ec-e45d-4632-9043-26a2f0b96d1f",
+        "email": "Garnet19@yahoo.com",
+        "firstName": "Kara",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/525.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game": [
+      {
+        "id": "7df385cf-c592-4c32-a30d-917dbd118616",
+        "name": "Chess",
+        "rules": "Capture the opponent's king",
+        "player_limit": 9369,
+        "status": "In progress",
+        "created_at": "2023-09-12T18:41:19.072Z",
+        "updated_at": "2023-09-13T11:21:56.191Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ed4fe31d-21b7-44fb-a484-c354ee1f2664",
+        "name": "Monopoly",
+        "rules": "Buy and sell properties",
+        "player_limit": 36239,
+        "status": "Completed",
+        "created_at": "2023-09-12T14:56:16.798Z",
+        "updated_at": "2023-09-12T18:00:10.019Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "36ceadb9-933a-42a7-8c38-84285ca92cd4",
+        "name": "Scrabble",
+        "rules": "Form words with letter tiles",
+        "player_limit": 1677,
+        "status": "On hold",
+        "created_at": "2023-09-12T14:58:38.730Z",
+        "updated_at": "2023-09-12T23:48:14.828Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f30685b-8b0d-450f-965e-ef4918809de4",
+        "name": "Poker",
+        "rules": "Play cards to win chips",
+        "player_limit": 51335,
+        "status": "Upcoming",
+        "created_at": "2023-09-12T16:20:38.332Z",
+        "updated_at": "2023-09-13T08:43:15.538Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e821a2c9-cbbe-44c6-9c3c-68d58151b2fc",
+        "name": "Sudoku",
+        "rules": "Fill a 9x9 grid with numbers",
+        "player_limit": 22612,
+        "status": "Cancelled",
+        "created_at": "2023-09-12T19:15:33.092Z",
+        "updated_at": "2023-09-13T03:22:51.087Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "bda13e7d-ce66-42d7-a4af-d4561be4baaa",
+        "username": "player1",
+        "score": 92268,
+        "status": "Active",
+        "created_at": "2023-09-13T00:20:42.721Z",
+        "updated_at": "2023-09-13T03:28:28.451Z",
+        "game_id": "9f30685b-8b0d-450f-965e-ef4918809de4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8651204a-0fbb-4b9a-82f6-8ed75d246222",
+        "username": "gamer123",
+        "score": 69931,
+        "status": "Inactive",
+        "created_at": "2023-09-12T17:43:55.802Z",
+        "updated_at": "2023-09-12T23:25:53.855Z",
+        "game_id": "e821a2c9-cbbe-44c6-9c3c-68d58151b2fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f279faa1-52ba-41c0-a024-8e268243d132",
+        "username": "proplayer",
+        "score": 13640,
+        "status": "Online",
+        "created_at": "2023-09-13T06:24:44.241Z",
+        "updated_at": "2023-09-12T20:49:36.209Z",
+        "game_id": "9f30685b-8b0d-450f-965e-ef4918809de4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60c42528-4c72-4682-a8c3-5b355affd7b2",
+        "username": "gamefanatic",
+        "score": 19477,
+        "status": "Offline",
+        "created_at": "2023-09-12T23:45:33.875Z",
+        "updated_at": "2023-09-13T08:30:08.794Z",
+        "game_id": "7df385cf-c592-4c32-a30d-917dbd118616",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2466d3d5-f2c2-4dba-90e0-c6894e264871",
+        "username": "playerx",
+        "score": 21577,
+        "status": "Busy",
+        "created_at": "2023-09-12T16:01:50.868Z",
+        "updated_at": "2023-09-12T18:31:40.204Z",
+        "game_id": "36ceadb9-933a-42a7-8c38-84285ca92cd4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "8a4f4ff3-2cc2-4bd2-8d44-ef733d81251e",
+        "created_at": "2023-09-13T00:21:03.169Z",
+        "updated_at": "2023-09-13T10:19:34.858Z",
+        "game_id": "9f30685b-8b0d-450f-965e-ef4918809de4",
+        "player_id": "2466d3d5-f2c2-4dba-90e0-c6894e264871"
+      },
+      {
+        "id": "ac9be486-1f84-4e8b-b870-718ad800af3e",
+        "created_at": "2023-09-13T06:59:29.986Z",
+        "updated_at": "2023-09-13T12:44:28.803Z",
+        "game_id": "36ceadb9-933a-42a7-8c38-84285ca92cd4",
+        "player_id": "60c42528-4c72-4682-a8c3-5b355affd7b2"
+      },
+      {
+        "id": "159ff430-ef12-42dc-8cfe-fda8586d4af8",
+        "created_at": "2023-09-13T08:43:43.001Z",
+        "updated_at": "2023-09-12T20:28:52.286Z",
+        "game_id": "36ceadb9-933a-42a7-8c38-84285ca92cd4",
+        "player_id": "2466d3d5-f2c2-4dba-90e0-c6894e264871"
+      },
+      {
+        "id": "1f6c6546-2971-4e58-949d-82bf25daaf7f",
+        "created_at": "2023-09-13T01:03:17.947Z",
+        "updated_at": "2023-09-12T23:56:35.140Z",
+        "game_id": "7df385cf-c592-4c32-a30d-917dbd118616",
+        "player_id": "60c42528-4c72-4682-a8c3-5b355affd7b2"
+      },
+      {
+        "id": "91b71904-4a5d-4c09-812e-038a690e4e55",
+        "created_at": "2023-09-13T10:30:18.732Z",
+        "updated_at": "2023-09-13T02:11:43.390Z",
+        "game_id": "e821a2c9-cbbe-44c6-9c3c-68d58151b2fc",
+        "player_id": "60c42528-4c72-4682-a8c3-5b355affd7b2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c1c5069c-88da-4f07-bb8f-5d9bde053b3a",
+        "email": "Erling.Ruecker@gmail.com",
+        "firstName": "Cecile",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83056288",
+        "tenantId": null
+      },
+      {
+        "reference": "eeea1d5f-0c8d-434c-8860-68e4784e2dd7",
+        "email": "Dedrick17@gmail.com",
+        "firstName": "Ford",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d425080-20d0-45a4-9b2f-8227849574c6",
+        "email": "Jarrod.Schuster14@gmail.com",
+        "firstName": "Cheyanne",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1236.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80f27a6c-a145-40fb-9d91-dd589f40bbe4",
+        "email": "Lessie.Smitham60@yahoo.com",
+        "firstName": "Cedrick",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81076714",
+        "tenantId": null
+      },
+      {
+        "reference": "7ba71551-de85-4f2a-8c04-2cddc8f45fd4",
+        "email": "Hester.Schowalter@gmail.com",
+        "firstName": "Telly",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/50.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "game": [
+      {
+        "id": "f72273f3-9081-46b7-9703-9ad358216a0c",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "player_limit": 47325,
+        "status": "In progress",
+        "created_at": "2023-09-13T01:07:26.155Z",
+        "updated_at": "2023-09-13T12:53:25.428Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6db756cd-ed59-4c90-a8db-48ad0749eae6",
+        "name": "Monopoly",
+        "rules": "Buy properties and bankrupt opponents",
+        "player_limit": 95565,
+        "status": "Completed",
+        "created_at": "2023-09-12T14:45:34.398Z",
+        "updated_at": "2023-09-12T17:58:41.405Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6e97fdc0-6995-41c7-b2fd-8a138c39c2db",
+        "name": "Scrabble",
+        "rules": "Form words with letter tiles",
+        "player_limit": 58107,
+        "status": "Upcoming",
+        "created_at": "2023-09-13T12:43:36.298Z",
+        "updated_at": "2023-09-13T11:34:09.391Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "274472c5-00ff-4cf5-9e7b-06bb55020f83",
+        "name": "Poker",
+        "rules": "Play cards strategically to win chips",
+        "player_limit": 27889,
+        "status": "Paused",
+        "created_at": "2023-09-12T19:59:55.803Z",
+        "updated_at": "2023-09-13T00:10:07.560Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cdc91847-b6c2-4c55-a61c-bfd74d4907a4",
+        "name": "Catan",
+        "rules": "Build settlements and trade resources",
+        "player_limit": 80620,
+        "status": "Cancelled",
+        "created_at": "2023-09-12T18:27:59.519Z",
+        "updated_at": "2023-09-13T12:58:29.198Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "6b48f4b1-5f71-4fd8-b9fb-da84442f7ce8",
+        "username": "player1",
+        "score": 18357,
+        "status": "Active",
+        "created_at": "2023-09-13T00:58:30.251Z",
+        "updated_at": "2023-09-13T00:48:22.084Z",
+        "game_id": "6db756cd-ed59-4c90-a8db-48ad0749eae6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62a2bcda-bb6b-4d78-99af-b9097ea5f56c",
+        "username": "gamer123",
+        "score": 43067,
+        "status": "Inactive",
+        "created_at": "2023-09-12T19:01:15.173Z",
+        "updated_at": "2023-09-13T05:59:01.642Z",
+        "game_id": "f72273f3-9081-46b7-9703-9ad358216a0c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22eb984a-0155-47b4-9932-433ff9ca17e6",
+        "username": "proplayer",
+        "score": 12628,
+        "status": "Online",
+        "created_at": "2023-09-13T12:46:10.279Z",
+        "updated_at": "2023-09-13T06:05:44.874Z",
+        "game_id": "f72273f3-9081-46b7-9703-9ad358216a0c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01c4a0dd-65c3-4702-91dc-fddc8bd8500d",
+        "username": "gamefanatic",
+        "score": 98987,
+        "status": "Offline",
+        "created_at": "2023-09-12T21:07:57.314Z",
+        "updated_at": "2023-09-13T09:57:11.188Z",
+        "game_id": "6e97fdc0-6995-41c7-b2fd-8a138c39c2db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8348f1e7-6eb6-4299-969d-e85976d316e1",
+        "username": "playerX",
+        "score": 1472,
+        "status": "Away",
+        "created_at": "2023-09-13T03:41:09.300Z",
+        "updated_at": "2023-09-13T00:53:18.800Z",
+        "game_id": "f72273f3-9081-46b7-9703-9ad358216a0c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "game_player": [
+      {
+        "id": "1506f454-0391-470a-b418-80be16e2b04d",
+        "created_at": "2023-09-13T06:22:54.762Z",
+        "updated_at": "2023-09-12T14:43:26.789Z",
+        "game_id": "6e97fdc0-6995-41c7-b2fd-8a138c39c2db",
+        "player_id": "6b48f4b1-5f71-4fd8-b9fb-da84442f7ce8"
+      },
+      {
+        "id": "81239c84-69cc-4614-876e-341066316fff",
+        "created_at": "2023-09-13T11:12:05.061Z",
+        "updated_at": "2023-09-13T13:12:45.998Z",
+        "game_id": "f72273f3-9081-46b7-9703-9ad358216a0c",
+        "player_id": "62a2bcda-bb6b-4d78-99af-b9097ea5f56c"
+      },
+      {
+        "id": "c181fe56-7b6b-4a54-b401-376aa47fbe9c",
+        "created_at": "2023-09-12T23:45:51.507Z",
+        "updated_at": "2023-09-12T19:58:35.278Z",
+        "game_id": "f72273f3-9081-46b7-9703-9ad358216a0c",
+        "player_id": "62a2bcda-bb6b-4d78-99af-b9097ea5f56c"
+      },
+      {
+        "id": "7f00e1e8-6208-4bda-9323-aca4c2c57b2b",
+        "created_at": "2023-09-13T12:31:16.035Z",
+        "updated_at": "2023-09-13T12:56:55.863Z",
+        "game_id": "f72273f3-9081-46b7-9703-9ad358216a0c",
+        "player_id": "62a2bcda-bb6b-4d78-99af-b9097ea5f56c"
+      },
+      {
+        "id": "197dc5bf-1673-4df9-9492-ce7938b86a4d",
+        "created_at": "2023-09-13T09:26:10.708Z",
+        "updated_at": "2023-09-13T03:51:50.456Z",
+        "game_id": "cdc91847-b6c2-4c55-a61c-bfd74d4907a4",
+        "player_id": "6b48f4b1-5f71-4fd8-b9fb-da84442f7ce8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a5f9e523-30ca-447a-8838-09699aa66237",
+        "email": "Hermina64@yahoo.com",
+        "firstName": "Enid",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/331.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dacf11a5-8c9a-4d73-be04-41d1203e8a04",
+        "email": "Vincenzo_Bauch@yahoo.com",
+        "firstName": "Trycia",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/288.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b018e65-5267-4ac4-8003-dff43d794bec",
+        "email": "Kobe_Macejkovic25@gmail.com",
+        "firstName": "Gunnar",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4459405",
+        "tenantId": null
+      },
+      {
+        "reference": "ffc958b2-489e-414d-b5d4-cb776f663fd5",
+        "email": "Velma56@gmail.com",
+        "firstName": "Jessie",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/749.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0b1b4b2-1c67-47e2-ad51-de2babed4cb9",
+        "email": "Wilber_Morar95@hotmail.com",
+        "firstName": "Mohammed",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42952153",
+        "tenantId": null
+      }
+    ]
+  }
+]
